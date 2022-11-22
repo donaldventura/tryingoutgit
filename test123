@@ -1,0 +1,28 @@
+mysql -u root -f -p -v etracs255 < D:\pgp_installer\etretracs255_20221108.sql (to load database to sylog)
+
+C:\Program Files\MySQL\MySQL Server 5.7\bin
+
+>mysql -u root -f -p etracs255 < C:/etracs255_20221108.sql
+
+git clone https://github.com/etracslgurepo/etracs255-server-workshop-muni.git
+
+git clone https://github.com/etracslgurepo/etracs255-server-workshop-prov.git
+
+>$ tar -xvf custom-template.tar.gz (for env.conf) git
+
+
+C:\TRAINING\etracs255-server-workshop-muni\_upgrade\aklan-malay>mysql -P 3306 root -p -f -D etracs255 <04-patch-etracs-255.02.007.sql
+
+mysql -P 3306 -u root -p -f < 00-create-eor-db.sql
+
+git pull -to download latest update, use gate bash inside target directory
+
+for backup*
+mysqldump
+--max-allowed-packet=16M
+-h 192.168.0.26 (if remote/nonlocal) optional
+-u root -p -f etracs255 > backup.sql
+
+mysql -u root -f -p -v etracs255 < D:\pgp_installer\etracs255_11162022_etracs_upgrade.sql
+
+mysql -P 3311 u root -p1234
